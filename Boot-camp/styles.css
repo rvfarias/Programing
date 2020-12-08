@@ -1,0 +1,127 @@
+body {
+  font-family: Arial;
+  color: #4a506e;
+  margin: 0;
+
+}
+
+.caixa1 {
+  background: url(./background.png.png);
+  padding-top: 30px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.menu {
+  text-align: right;
+  padding-right: 40px;
+}
+
+.caixa2 {
+  background: #741bff;
+  padding-bottom: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.habilidade {
+  background: white;
+  height: 500px;
+  width: 350px;
+  border-radius: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.thabilidades {
+  color: white;
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 60px;
+}
+
+.caixa3 {
+  text-align: center;
+  background: white;
+  padding-bottom: 50px;
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.avatar {
+  height: 100px;
+  border-radius: 10px;
+}
+
+.linkmenu {
+  text-decoration: none;
+  color: #4a506e;
+  margin-left: 20px;
+}
+
+a:hover {
+  color: black;
+}
+
+.tcontato {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.linkWhats {
+  display: inline-block;
+  font-size: 20px;
+  color: white;
+  background: #6beb34;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.outroscontatos {
+  padding-top: 30px;
+}
+
+@media (max-width: 600px) {
+  .menu{
+    display: none;
+  }
+
+  .habilidade{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+  }
+}

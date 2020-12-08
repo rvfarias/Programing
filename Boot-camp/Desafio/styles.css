@@ -1,0 +1,75 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: url(./thewitcher.jpeg);
+  background-size: cover;
+}
+
+.caixa1 {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+}
+
+.icons{
+  text-align: right;
+  padding-top: 20px;
+}
+.icon{
+  height: 35px;
+  border-radius: 100px;
+  margin-right: 20px;
+}
+
+.logo{
+  height: 80px;
+  border-radius: 60px;
+}
+
+.caixa2 {
+  padding-bottom: 60px;
+
+}
+
+.caixacentral{
+  text-align: center;
+  background: white;
+  width: 800px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  margin-top: 50px;
+  margin-left: 280px;
+}
+
+.texto{
+  padding-bottom: 40px;
+
+}
+.participe{
+  display: inline-block;
+  text-decoration: none;
+  color: yellow;
+  background: black;
+  font-size: 20px;
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+}
+
+h1 {
+  text-align: left;
+  margin-left: 20px;
+  color: #C0C0C0;
+  font-size: 30px;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
