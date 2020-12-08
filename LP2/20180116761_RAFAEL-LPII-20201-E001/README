@@ -1,0 +1,37 @@
+Todos os códigos foram emplementados na linguagem C, em uma máquina Linux 
+e possuem apenas as bibliotecas utilizadas pelo professor.
+
+Segue abaixo algumas instruções para compilação e execução: 
+
+Para o código da primeira questão, digitar no terminal 
+
+	gcc q1_Shell.c -o q1_Shell
+
+para compilação e 
+	
+	./q1_Shell
+	
+para execução.
+
+O código mostrará o pid do processo pai e aguardará o usuário
+digitar algum comando para então executa-lo. 
+Comandos sugeridos:
+ 	
+ 	-ps
+	-top
+ 	-ls
+ 
+Para o código da segunda questão, digitar no terminal 
+
+	gcc questão2.c -o questão2
+
+para compilação e 
+	
+	./questão2
+	
+para execução.
+
+O código solicitará uma sequência de caracteres para então dá 
+procedimendo as buscas nos arquivos disponilizados. O programa
+irá mostrar após as buscas a frequência da sequência digitada 
+em cada arquivo e a soma das mesmas.

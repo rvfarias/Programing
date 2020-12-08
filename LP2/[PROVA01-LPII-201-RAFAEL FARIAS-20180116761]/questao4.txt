@@ -1,0 +1,11 @@
+A duração das threads em si sempre vai depender do tempo de execução do processo que as invocou, podendo então ser finalizadas mesmo que elas ainda tenham instruções. No entanto isso pode ser revertido com uso de funções presentes na biblioteca pthread, como vimos ser feito no problema anterior com uso da função pthread_join que ira aguardar a função que a invocou finalizar.
+
+O ciclo de vida de uma thread se resume a quatro estados sendo eles:
+Pronto, que é o estado inicial comum a todas threads, onde ela aguarda ser executada;
+
+Em execução, estado no qual ela inicia a executar suas instruções;
+
+Bloqueado, estado no qual a thread possuem instruções de entrada ou saída, e necessita das informações para continuar sua execução, voltando assim para o estado anterior;
+
+Finalizado, que quando ele executou todas suas instruções e vai para a memória cache para logo então ser apagada pelo sistema.
+  
