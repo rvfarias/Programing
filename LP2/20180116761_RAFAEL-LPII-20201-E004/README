@@ -1,0 +1,22 @@
+Todos os códigos foram implementados na linguagem C, em uma máquina Linux
+e possuem apenas as bibliotecas utilizadas pelo professor.
+
+Segue abaixo algumas instruções para compilação e execução:
+
+Para o código em questão, digitar no terminal
+
+	gcc E003.c -o E003
+
+para compilação e
+
+	./E003
+
+para execução.
+
+O código mostrará cada caractere gerado por sua respectiva thread, depois
+a palavra obtida através da junção dos caracteres gerados e logo abaixo
+uma mensagem dizendo se é ou não um palíndromo.Ao todo o programa gerará
+dez palavras aleatórias e se comportará na ordem mostrada acima.
+
+Obs: Cada thread armazenará um caractere na posição do array de seus
+respectivos índices, este é passado para a função como parâmetro.
